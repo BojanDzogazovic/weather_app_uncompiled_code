@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2 class="center-align">Weather App <i class="cloud medium material-icons">wb_cloudy</i><i class="sun medium material-icons">wb_sunny</i></h2>
+        <p class="center-align">Get today's weather forecast for your city in detail, and a 6-day prediction's for any city in world!</p>
+        <form class="row">
+            <div class="input-field col s12 m10 offset-m1">
+                <input id="city" type="text" autocomplete="off">
+                <label for="first_name">Enter city:</label>
+            </div>  
+        </form>
+        <div id="result"></div>
+    </div>
+    <div class="carousel">
+        <div id="0" class="carousel-item"></div>
+        <div id="1" class="carousel-item"></div>
+        <div id="2" class="carousel-item"></div>
+        <div id="3" class="carousel-item"></div>
+        <div id="4" class="carousel-item"></div>
+        <div id="5" class="carousel-item"></div>
+        <div id="6" class="carousel-item"></div>
+    </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="./dist/main.js"></script>
+<script>
+</script>
+</body>
+</html>
